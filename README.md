@@ -1,1 +1,0 @@
-# versusgeorge.github.io
