@@ -1,3 +1,0 @@
-date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
-06:17:54	77672/77672	---MCZ	200	added ('OK')	text/html	etag:W/%2212f68-MGFpmzuKU+tKpHG3d1rG0iQESqU%22	https://hle.io/about	D:/HTL/hle.io/about.html	(from )
-06:17:55	25/25	---M--	200	added ('OK')	text/plain	etag:W/%2219-184cde282b1%22	https://hle.io/robots.txt		(from )
