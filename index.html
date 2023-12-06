@@ -25,8 +25,6 @@
             Your browser does not support the audio element.
         </audio>
         <br>
-        <button id="play-pause">Play</button>
-        <button id="stop">Stop</button>
     </div>
   </div>
   <div class="links">
@@ -51,27 +49,6 @@
   </div>
 </div>
 <!-- Aditi Suryawanshi -->
-<script>
-        const audio = document.getElementById('audio');
-        const playPauseButton = document.getElementById('play-pause');
-        const stopButton = document.getElementById('stop');
-
-        playPauseButton.addEventListener('click', () => {
-            if (audio.paused) {
-                audio.play();
-                playPauseButton.textContent = 'Pause';
-            } else {
-                audio.pause();
-                playPauseButton.textContent = 'Play';
-            }
-        });
-
-        stopButton.addEventListener('click', () => {
-            audio.pause();
-            audio.currentTime = 0;
-            playPauseButton.textContent = 'Play';
-        });
-    </script>
 
 <div class="footer">
   <p class="c-footer_copyright_text">© 2023 Chris x Aditi<br> <a href="mailto:chrisgeorge@duck.com">GET IN TOUCH WITH HER BOYFRIEND</a> </p>
